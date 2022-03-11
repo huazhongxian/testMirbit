@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<h2>为 JSON 字符串创建对象</h2>
+<p id="demo"></p>
+<br><br>
+<p id="demo1"></p>
+<script>
+  let a ='<STX>';
+  console.log(a.indexOf("<STX>") != -1 );
+  try {
+        let obj = JSON.parse(a);
+
+        if (typeof obj == 'object' && obj) {
+            console.log(0)
+            // basic.showNumber(7)
+            // basic.showString(obj.SKU);
+            // return true;
+        } else {
+            console.log(1)
+            // basic.showNumber(8)
+            //  return false;
+        }
+
+    } catch (e) {
+        console.log(2)
+        // basic.showNumber(9)
+        //  return false;
+    }
+
+
+
+
+
+</script>
+
+</body>
+</html>

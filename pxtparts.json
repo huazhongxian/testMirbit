@@ -1,0 +1,68 @@
+{
+  "ME66": {
+    "visual": {
+      "image": "parts/ME66.svg",
+      "width": 82,
+      "height": 82,
+      "pinDistance": 7.2,
+      "pinLocations": [
+        {
+          "x": 29,
+          "y": 5
+        },
+        {
+          "x": 37,
+          "y": 5
+        },
+        {
+          "x": 44,
+          "y": 5
+        },
+        {
+          "x": 51,
+          "y": 5
+        }
+      ]
+    },
+    "numberOfPins": 4,
+    "instantiation": {
+      "kind": "function",
+      "fullyQualifiedName": "ME66.pixel,ME66.showString,ME66.showNumber,ME66.hline,ME66.vline,ME66.rect,ME66.invert,ME66.draw,ME66.clear,ME66.on,ME66.off,ME66.zoom,ME66.init",
+      "argumentRoles": [{
+                    "pinInstantiationIdx": 0
+                }]
+    },
+    "pinDefinitions": [
+      {
+        "target": "threeVolt",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "ground",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SCL",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SDA",
+        "style": "male",
+        "orientation": "+Y"
+      }
+    ],
+    "assembly": [
+      {
+        "pinIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  }
+}
