@@ -81,9 +81,9 @@ namespace ME66 {
    * @param tx Tx pin; eg: SerialPin.P1
    * @param rx Rx pin; eg: SerialPin.P2
    */
-  //% blockId=newland_init block="Newland init|Tx pin %tx|Rx pin %rx"
+  //% blockId=me66_init block="Newland init|Tx pin %tx|Rx pin %rx"
   //% group="Basic" weight=100
-  export function newland_init(tx: SerialPin, rx: SerialPin): void {
+  export function me66_init(tx: SerialPin, rx: SerialPin): void {
     serial.redirect(tx, rx, BaudRate.BaudRate115200)
     serial.readString()
     serial.setRxBufferSize(128)
@@ -91,9 +91,9 @@ namespace ME66 {
     basic.pause(300)
   }
 
-  //% blockId=newland_volume_control block="Newland  Volume Dir%dir"
+  //% blockId=me66_volume_control block="Newland  Volume Dir%dir"
   //% group="Basic" weight=98
-  export function newland_volume_control(dir: VolumeNum): void {
+  export function me66_volume_control(dir: VolumeNum): void {
     if (dir == 0) {
       serial.writeLine('<STX><0015><SET><01><00><VOLUME=0><ETX><56>')
     } else if (dir == 1) {
@@ -110,9 +110,9 @@ namespace ME66 {
     basic.pause(100)
   }
 
-  //% blockId=newland_volume_onOff block="Newland Volume onOff%dir"
+  //% blockId=me66_volume_onOff block="Newland Volume onOff%dir"
   //% group="Basic" weight=98
-  export function newland_volume_onOff(dir: OnOffDirection): void {
+  export function me66_volume_onOff(dir: OnOffDirection): void {
     if (dir == 0) {
       serial.writeLine('<STX><0021><SET><01><00><PROMPT=0003OFF><ETX><21>')
     } else if (dir == 1) {
@@ -121,9 +121,9 @@ namespace ME66 {
     basic.pause(100)
   }
 
-  //% blockId=newland_volume_set block="Newland volume Set"
+  //% blockId=me66_volume_set block="Newland volume Set"
   //% group="Basic" weight=88
-  export function newland_volume_set(): void {
+  export function me66_volume_set(): void {
     //OFF
     serial.writeLine('<STX><0016><SET><01><00><RESET=OFF><ETX><77>')
     basic.pause(100)
@@ -132,10 +132,10 @@ namespace ME66 {
     basic.pause(100)
   }
 
-  //% blockId=newland_scan_items block="on Button"
+  //% blockId=me66_scan_items block="on Button"
   //% weight=96
   //% group="Basic" draggableParameters=reporter
-  export function newland_scan_items(
+  export function me66_scan_items(
       handler: (SKU: string, Name: string, Price: string) => void
   ): void {
     btnEvt = handler
