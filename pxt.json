@@ -1,6 +1,6 @@
 {
-    "name": "newland",
-    "version": "0.0.1",
+    "name": "ME66",
+    "version": "0.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -11,7 +11,7 @@
         "README.md",
         "main.blocks",
         "main.ts",
-	"_locales/zh-cn/newland-strings.json",
+        "_locales/zh-cn/newland-strings.json",
         "_locales/zh-tw/newland-strings.json"
     ],
     "testFiles": [
