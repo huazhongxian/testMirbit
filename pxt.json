@@ -1,0 +1,24 @@
+{
+    "name": "ME66",
+    "version": "0.0.0",
+    "description": "ME66 uses microbit to realize supermarket",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "license": "TIC"
+}
