@@ -1,7 +1,7 @@
-/*
+﻿/*
 Riven
 load dependency
-"newland": "file:../pxt-newland"
+"ME66": "file:../pxt-ME66"
 */
 
 //% color="#5c7cfa" weight=10 icon="\uf108"
