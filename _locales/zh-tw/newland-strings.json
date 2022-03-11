@@ -1,0 +1,16 @@
+{
+    "ME66.newland_init|block": "ME66初始化|Tx pin %tx|Rx pin %rx",
+    "ME66.newland_volume_control|block": "ME66音量%dir",
+    "ME66.newland_volume_onOff|block": "ME66提示音%dir",
+    "ME66.newland_volume_set|block": "重置ME66",
+    "ME66.OnOffDirection.On|block":"開",
+    "ME66.OnOffDirection.Off|block":"關",
+    "ME66.newland_scan_items|block": "掃描商品",
+    "ME66.VolumeNum.Volume5|block":"5",
+    "ME66.VolumeNum.Volume4|block":"4",
+    "ME66.VolumeNum.Volume3|block":"3",
+    "ME66.VolumeNum.Volume2|block":"2",
+    "ME66.VolumeNum.Volume1|block":"1",
+    "ME66.VolumeNum.Volume0|block":"0"
+}
+
