@@ -1,5 +1,10 @@
 #
+> Open this page at https://github.com/SupremeWu/pxt-newland
+
+pxt-newland
+
  ![](newland.png)
+
 ## Use as Extension
 This repository can be added as an **extension** in MakeCode.
 * open []()
